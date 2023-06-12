@@ -1,0 +1,50 @@
+
+header {
+  text-align: center; 
+  margin-bottom: 20px;
+}
+body { 
+  background-color: rgb(102 , 178 , 255); 
+} 
+ul { 
+  list-style-type: none; 
+  text-align: center; 
+  padding: 0px;
+} 
+li { 
+  display: inline; 
+  margin-right: 100px; 
+} 
+li:last-child {
+  margin-right: 0px;
+}
+a { 
+  color: #FFE2B0; 
+text-decoration:  none;  
+font-size: 18px;
+} 
+nav {
+  margin-bottom: 20px;
+} 
+.section-about { 
+  height: 640px; 
+  background-image: url(../img/01-Картинка-фона.jpg);
+  background-position: center;
+  background-position : cover; 
+  position: relative;
+} 
+.section-about_block {
+  width: 420px;
+  height: 190px; 
+  background: linear-gradient(180deg, rgba(102 , 178 , 255,0.8) 0%, rgba(231, 186, 134, 0.8) 100%); top: 349px; left: 730px; 
+  position: absolute; 
+  background-position: cover; 
+  z-index: 1; 
+   
+} 
+.block_border { 
+border:1px solid; 
+width: 390px;
+height: 160px;  
+background: center/cover left: 30px ;
+}
